@@ -1,6 +1,6 @@
 # ObjectProxy for ConboJS 4
 
-`ObjectProxy` is an experimental pseudo-class for ConboJS that wraps regular JavaScript objects to enable them to be be used with ConboJS two-way data binding, as an alternative to using a `Hash` or similar data model.   
+`ObjectProxy` is an experimental pseudo-class for ConboJS that uses `Proxy` to wrap regular JavaScript objects to enable them to be be used with ConboJS two-way data binding, as an alternative to using a `Hash` or similar data model.   
 
 The `ObjectProxy` pseudo-class can be imported as an AMD, CommonJS or global module.
 
