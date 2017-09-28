@@ -1,0 +1,37 @@
+{
+  "name": "conbo-objectproxy",
+  "version": "1.0.0",
+  "description": "Bindable object proxy for ConboJS",
+  "main": "lib/conbo-objectproxy.js",
+  "files": [
+    "lib",
+    "typings"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mesmotronic/conbo-objectproxy.git"
+  },
+  "keywords": [
+    "conbo",
+    "object",
+    "proxy",
+    "bindable",
+    "observable",
+    "es6",
+    "es2015",
+    "typescript"
+  ],
+  "types": "./lib/conbo-changehistory.d.ts",
+  "author": "Mesmotronic",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mesmotronic/conbo-objectproxy/issues"
+  },
+  "homepage": "https://github.com/mesmotronic/conbo-objectproxy#readme",
+  "dependencies": {
+    "conbo": "^4.1.9"
+  }
+}
