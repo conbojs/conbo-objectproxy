@@ -1,5 +1,5 @@
 var obj = {a:0};
-var proxy = ObjectProxy(obj, true);
+var proxy = ObjectProxy.create(obj, true);
 
 proxy.addEventListener('change', (event) => 
 {
