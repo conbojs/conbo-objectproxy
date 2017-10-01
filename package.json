@@ -1,6 +1,6 @@
 {
   "name": "conbo-objectproxy",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Bindable object proxy for ConboJS",
   "main": "lib/conbo-objectproxy.js",
   "files": [

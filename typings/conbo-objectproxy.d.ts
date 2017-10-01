@@ -16,5 +16,5 @@ declare class ObjectProxy extends conbo.EventDispatcher
 	 * @param 		{any}		target - The object to proxy
 	 * @param 		{boolean}	[strict=false] - Prevent reading or creation of dynamic and private properties?
 	 */
-	create(target:any, strict?:boolean):ObjectProxy;
+	public static create(target:any, strict?:boolean):ObjectProxy;
 }
